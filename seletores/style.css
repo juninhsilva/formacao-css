@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightcyan;
+    font-size: 22px;
+    margin: 2em 1em;
+
+}
+
+h1{
+    background-color: darkblue;
+    color: lightgreen;
+}
+
+div{
+    background-color: lightblue;
+    color: darkblue;
+}
+
+li{
+    background-color: lightgreen;
+    list-style: none;
+}
+
+strong{
+    font-weight: 700;
+    font-style: italic;
+}
+
+#welcome{
+    font-family: 'Fira Code';
+    background-color: red;
+    color: white;
+}
+
+#explanation{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    text-decoration: wavy;
+}
+
+.main{
+    font-family: Verdana, Arial, 'Lucida Sans';
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+
+[title]{
+    color: blueviolet;
+    font-style: italic;
+    text-align: right;
+}
