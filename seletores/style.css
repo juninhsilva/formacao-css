@@ -15,6 +15,11 @@ h1{
     color: lightgreen;
 }
 
+h1, p{
+    font-family: 'Fira Code';
+    text-align: right;
+}
+
 div{
     background-color: lightblue;
     color: darkblue;
@@ -23,6 +28,19 @@ div{
 li{
     background-color: lightgreen;
     list-style: none;
+}
+
+li>a{
+    display: block;
+    text-transform: uppercase;
+}
+
+p+span{
+    color:rebeccapurple;
+}
+
+h2 ~ p{
+    text-transform: uppercase;
 }
 
 strong{
@@ -59,4 +77,11 @@ strong{
     color: blueviolet;
     font-style: italic;
     text-align: right;
+    text-decoration: none;
+    cursor: help;
+}
+
+li li{
+    color: green;
+    margin-left: 25px;
 }
