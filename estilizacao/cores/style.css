@@ -1,0 +1,38 @@
+ul,li{
+    display: block;
+    text-decoration: none;
+}
+
+#pre-definidas{
+    color:red;
+}
+
+#current-color{
+    background-color: transparent;
+    color:orange;
+    border: 1px solid currentColor;
+}
+
+#hex{
+    color: #010;
+}
+
+#hex-transparencia{
+    color:#110a;
+}
+
+#rgb{
+    color: rgb(255,0,135);
+}
+
+#rgba{
+    color:rgba(240,132,124, 0.8);
+}
+
+#hsl{
+    color:hsl(120, 100%, 50%);
+}
+
+#hsla{
+    color: hsla(160, 50%, 35%, 0.82);
+}

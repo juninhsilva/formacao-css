@@ -1,0 +1,42 @@
+div{
+    width: 200px;
+    height: 300px;
+    border: 3px solid #123;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#contain{
+    object-fit: contain;
+}
+
+
+#cover{
+    object-fit: over;
+}
+
+#scale-down{
+    object-fit: scale-down;
+}
+
+#none{
+    object-fit: none;
+}
+
+#position-central{
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#position-horizontal{
+    object-fit: cover;
+    object-position: left 0;
+}
+
+#position-vertical{
+    object-fit: cover;
+    object-position: right end;
+}
