@@ -10,15 +10,21 @@ div{
 }
 
 .back-linear{
-    background-color: linear-gradient(black, red, white);
+    background-color: linear-gradient(to top, #fff, #000);
+    -webkit-background-color: linear-gradient(to top, #fff, #000);
+    -moz-background-color: linear-gradient(to top, #fff, #000);
 }
 
 .back-radial{
     background-color: radial-gradient(lightpink, grey);
+    -webkit-background-color: radial-gradient(lightpink, grey);
+    -moz-background-color: radial-gradient(lightpink, grey);
 }
 
 .back-repeating-linear{
     background-color: repeating-linear-gradient(to top, violet 0 20px, pink 20px 40px);
+    -webkit-background-color: repeating-linear-gradient(to top, violet 0 20px, pink 20px 40px);
+    -moz-background-color: repeating-linear-gradient(to top, violet 0 20px, pink 20px 40px);
 }
 
 .cover{
@@ -63,4 +69,57 @@ div{
 
 .repeat-round{
     background-repeat: round;
+}
+
+.position{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.attachment-fixed{
+    background-attachment: fixed;
+}
+
+.attachment-scroll{
+    background-attachment: scroll;
+}
+
+.attachment-local{
+    background-attachment: local;
+}
+
+.origin-padding-box{
+    background-origin: padding-box;
+}
+
+.origin-border-box{
+    background-origin: border-box;
+}
+
+.origin-content-box{
+    background-origin: content-box;
+}
+
+.clip-padding-box{
+    background-clip: padding-box;
+}
+
+.clip-border-box{
+    background-clip: border-box;
+}
+
+.clip-text{
+    font-weight:900;
+    font-size:264px;
+    background-clip: text;
+    color:transparent;
+}
+
+.blend-mode{
+    background-color: orange;
+    background-blend-mode: overlay;
+}
+
+.background{
+    background: url('../imagens/img/Dio_\(Logo\).png') top center / 10px 10px no-repeat fixed padding-box content-box red;
 }
