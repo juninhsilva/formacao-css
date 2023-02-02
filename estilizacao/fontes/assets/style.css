@@ -21,6 +21,41 @@ p.public{
     font-variant:normal;
 }
 
+p.xx-small{
+    font-size: xx-small;
+    font-variant: initial;
+}
+
+p.x-small{
+    font-size: x-small;
+    font-variant: unset;
+}
+
+p.small{
+    font-size: small;
+    font-variant:inherit;
+}
+
+p.medium{
+    font-size: medium;
+    font-style: italic;
+}
+
+p.large{
+    font-size: large;
+    font-style: oblique;
+}
+
+p.x-large{
+    font-size: x-large;
+    font-weight: 900;
+}
+
+p.xx-large{
+    font-size: xx-large;
+    font-weight: 100;
+}
+
 li{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
