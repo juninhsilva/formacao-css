@@ -56,7 +56,28 @@ p.xx-large{
     font-weight: 100;
 }
 
+p.semi-condensed{
+    font-stretch: semi-condensed;
+}
+
+p.condensed{
+    font-stretch: condensed;
+}
+
+p.normal{
+    font-stretch: normal;
+}
+
+p.semi-expanded{
+    font-stretch: semi-expanded;
+}
+
+p.expanded{
+    font-stretch: expanded;
+}
+
 li{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
+    line-height: 25px;
 }
