@@ -1,0 +1,35 @@
+img{
+    border: 2px solid brown;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+img:hover{
+    background-color: gray;
+    color: white;
+    opacity: 0.6;
+}
+
+div>p{
+    background-color: orange;
+    border: 2px solid purple;
+    width: 300px;
+    height:200px;
+    padding: 10px;
+}
+
+div>p.visible{
+    overflow: visible;
+}
+
+div>p.hidden{
+    overflow: hidden;
+}
+
+div>p.auto{
+    overflow: auto;
+}
+
+div>p.scroll{
+    overflow: scroll;
+}

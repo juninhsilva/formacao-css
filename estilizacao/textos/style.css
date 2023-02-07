@@ -23,6 +23,15 @@ p.capitalize{
     word-break: break-all;
 }
 
+div.text-overflow{
+    width: 300px;
+    text-transform: lowercase;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 li{
     list-style: none;
     text-decoration: none;

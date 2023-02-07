@@ -1,0 +1,22 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    margin: 20px auto;
+    background-color: aquamarine;
+    box-shadow: 10px 10px 20px -5px purple;
+}
+
+img{
+    width: 400px;
+    margin: 20px auto;
+    object-fit: cover;
+    filter: drop-shadow(10px 10px 5px gray);
+}
+
+h2{
+    color:deepskyblue;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px gray;
+}
