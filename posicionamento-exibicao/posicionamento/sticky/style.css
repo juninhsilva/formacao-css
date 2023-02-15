@@ -1,0 +1,32 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    height: 200vh;
+}
+
+div{
+    color:white;
+}
+
+.inline{
+    display:inline-block;
+    width: 100px;
+    height:100px;
+    margin:10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.div1{
+    background-color: orange;
+}
+
+.div2{
+    background-color: blue;
+    position: sticky;
+    top: 20px;
+    left: 40px;
+}
+
+.div3{
+    background-color: red;
+}

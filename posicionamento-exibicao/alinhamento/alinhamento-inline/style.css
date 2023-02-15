@@ -1,0 +1,18 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+}
+
+#item1{
+    height: 32px;
+    vertical-align: center;
+}
+
+#item2{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#item3{
+    vertical-align:top;
+}
