@@ -93,11 +93,6 @@ input{
     line-height: 14px;
 }
 
-footer{
-    background-color:purple;
-    bottom: 0;
-}
-
 #menu{
     background-image: url('./img/menu.png');
     position: absolute;
