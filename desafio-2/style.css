@@ -4,10 +4,14 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
-    align-items: flex-start;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 56px 640px 80px;
+    grid-template-areas: 
+        "header header header header header header header header header header" 
+        ". main main main main main main sidebar sidebar sidebar"
+        "footer footer footer footer footer footer footer footer footer footer";
     padding: 0px;
     gap: 16px;
 
@@ -17,24 +21,17 @@ body{
 }
 
 nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    grid-area: header;
     padding: 0px 24px;
     gap: 32px;
 }
 
 main{
-    width: 70%;
-    position: relative;
+    grid-area: main;
     width: 952px;
     height: 746px;
     left: 75px;
     top: 84px;
-
-    display: flex;
-    flex-direction: column;
 }
 
 button{
@@ -50,12 +47,13 @@ button{
 }
 
 aside{
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    grid-area: sidebar;
     padding: 0px;
     gap: 16px;
+}
+
+footer{
+    grid-area: footer;
 }
 
 input{
@@ -64,7 +62,7 @@ input{
 }
 
 .video-thumb-container{
-    padding: 20px;
+    margin: 32px;
 }
 
 .video-thumb{
@@ -95,7 +93,6 @@ input{
 
 #menu{
     background-image: url('./img/menu.png');
-    position: absolute;
     width: 24px;
     height: 24px;
     left: 24px;
@@ -109,7 +106,6 @@ input{
 
 #youtube{
     background-image: url('./img/youtube.png');
-    position: absolute;
     width: 90px;
     height: 20px;
     left: 80px;
@@ -119,9 +115,6 @@ input{
 
 #video-player{
     background-image: url('./img/video.png');
-    width: 952px;
-    height: 537px;
-
 }
 
 .video-actions{
