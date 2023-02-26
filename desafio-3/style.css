@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: 
+        "header header header header header" 
+        "sidebar main main main main";
+    gap: 16px;
+
+    background-color: #f9f9f9;  
+    font-family: 'Roboto', sans-serif;
+
+}
+
+nav{
+    grid-area: header;
+    padding: 0px 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 24px;
+}
+
+main{
+    grid-area: main;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+aside{
+    grid-area: sidebar;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+input{
+    width: 348px;
+    height: 40px;
+}
+
+.video-thumb-container{
+    width: auto;
+    margin: 16px;
+}
+
+.video-thumb{
+    width: 160px;
+    height: 90px;
+
+    background-image: url('./img/video-thumb.png');
+    cursor: pointer;
+}
+
+.video-thumb-description{
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.video-thumb-description h3{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.video-thumb-description p{
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#menu{
+    background-image: url('./img/menu.png');
+    width: 24px;
+    height: 24px;
+    left: 24px;
+    top: 16px;
+    cursor: pointer;
+}
+
+#video{
+    background-image: url('./img/video.png');
+}
+
+#youtube{
+    background-image: url('./img/youtube.png');
+    width: 90px;
+    height: 20px;
+}
+
+.channel-logo{
+    background-image: url('./img/channel-logo.png');
+    width: 42px;
+    height: 42px;
+}
+
+.channel-name{
+    font-weight: 600;
+}
+
+.channel-subscribers{
+    font-weight:300;
+    color: #515151;
+}
+
+.video-stats{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.menu-item{
+    margin:0 24px;
+    font-weight: 600;
+    font-size: 14px;
+    align-items: center;
+}
+.menu-item img{
+    margin-right: 16px;
+}

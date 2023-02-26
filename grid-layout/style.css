@@ -32,21 +32,26 @@
     background-color: blueviolet;
     grid-template-columns: repeat(2, 1fr) 4fr repeat(2, 1fr);
     grid-template-rows: 50px 100px 80px;
+    place-items: center;
 }
 
 .container-grid-area{
-    padding: 10px;
     display: grid;
     background-color: brown;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 50px 100px;
+    grid-template-columns: repeat(4, auto);
+    /*row-gap: 10px;
+    column-gap: 10px;*/
+    gap: 10px;
+    justify-content:stretch;
+    align-content: center;
+    justify-items: stretch;
+    align-items: center;
 }
 
 .item{
     background-color: red;
     border: 1px solid black;
     color:whitesmoke;
-    text-align: center;
 }
 
 .item-position{
@@ -55,7 +60,6 @@
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
-    text-align: center;
 }
 
 .item-grid-area{
