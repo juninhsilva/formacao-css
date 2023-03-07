@@ -1,0 +1,10 @@
+body{
+    font-family: Verdana;
+}
+
+.container{
+    /*column-count: 3;*/
+    column-width: 400px;
+    column-rule: 1px solid red;
+    column-gap: 50px;
+}
