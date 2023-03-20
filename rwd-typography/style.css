@@ -1,0 +1,13 @@
+h1{
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 680px){
+    h1{
+        font-size: calc(1.6rem+4vw);
+    }
+
+    p{
+        font-size: calc(1rem+4vw);
+    }
+}
