@@ -26,17 +26,26 @@ main{
     padding: 2rem;
 }
 
-footer{
-    padding: 2rem;
-    height: 8.375rem;
-    background-color: #23272A;
-    justify-items: center;
-    text-align: center;
-    color: #fff;
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
-footer h1{
-    text-transform: none;
+section.final h2{
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    background-color: #23272A;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
 }
 
 img{
@@ -82,6 +91,26 @@ button.negative{
         text-align: center;
     }
 
+    section{
+        flex-direction: row;
+        flex-wrap: nowrap;
+
+        justify-content: center;
+        align-items: center
+    }
+    
+    section.reverse{
+        flex-direction: row-reverse;
+    }
+
+    section.final{
+        flex-direction: column;
+    }
+
+    section>img{
+        flex-grow: 1;
+    }
+
     h1{
         font-size: 3.5rem;
         line-height: 3.5rem;
@@ -93,5 +122,11 @@ button.negative{
 
     button{
         width: auto;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
     }
 }
