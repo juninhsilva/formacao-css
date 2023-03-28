@@ -1,0 +1,31 @@
+p::first-letter{
+    color:aqua;
+    background-color: black;
+    margin: 14px;
+    padding: 10px;
+    border: 1px solid #fff;
+    font: bold;
+}
+p::first-line{
+    color: blue;
+    background-color: white;
+    font-size: 24px;
+}
+
+video{
+    width: 100%;
+}
+
+video::backdrop{
+    background-color:bisque;
+}
+
+summary::marker{
+    color:purple;
+    content: "::";
+}
+
+li::marker{
+    color:green;
+    content: "->";
+}
