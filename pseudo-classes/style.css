@@ -5,9 +5,33 @@ code{
 .card{
     width: 400px;
     height: 400px;
+    font-size: 1rem;
     background-color:blue;
 }
 
 .card:hover{
     opacity: 80%;
+}
+
+.card:active{
+    background-color:purple;
+}
+
+.card:focus{
+    color: white;
+    font-size: 4rem;
+}
+
+label{
+    display: block;
+    margin: 16px;
+}
+
+label, input, select{
+    font-size: 2rem;
+}
+
+input:focus, select:focus{
+    border: 1px solid green;
+    background-color: yellow;
 }
