@@ -35,3 +35,15 @@ input:focus, select:focus{
     border: 1px solid green;
     background-color: yellow;
 }
+
+label:focus-within{
+    font-weight: bold;
+}
+button:focus-visible{
+    background-color: red;
+    color: white;
+}
+
+p:target{
+    background-color: gold;
+}
